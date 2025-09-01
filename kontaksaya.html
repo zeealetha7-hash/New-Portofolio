@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontak Saya</title>
+    <ul>
+        <li><a href="index.html"><h1>🔙</h1></a></li>
+    </ul>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5eadf;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      background: #f5eadf;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .contact-info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+
+    .contact-item {
+      flex: 1 1 45%;
+      margin: 10px 0;
+    }
+
+    .contact-item i {
+      color: #f794c2;
+      margin-right: 10px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input, textarea {
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #f5eadf;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #f794c2;
+      color: #f5eadf;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #f794c2;
+    }
+
+    .social-media {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .social-media a {
+      margin: 0 10px;
+      color: #333;
+      font-size: 24px;
+      text-decoration: none;
+    }
+
+    .social-media a:hover {
+      color: #f794c2;
+    }
+
+    @media (max-width: 600px) {
+      .contact-info {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Kontak Saya</h1>
+
+    <div class="contact-info">
+      <div class="contact-item">
+        <i class="fas fa-envelope"></i> Email: <a href="zeealetha.05@gmail.com">zeealetha.05@gmail.com</a>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-phone"></i> Telepon / WA: <a href="https://wa.me/6285695819687" target="_blank">+62 856-9581-9687</a>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-map-marker-alt"></i> Alamat: Jl. Kampung Janis , Jakarta
+      </div>
+    </div>
+
+    <form action="mailto:namakamu@email.com" method="POST" enctype="text/plain">
+      <input type="text" name="nama" placeholder="Nama Anda" required>
+      <input type="email" name="email" placeholder="Email Anda" required>
+      <textarea name="pesan" rows="5" placeholder="Tulis pesan Anda di sini..." required></textarea>
+      <button type="submit">Kirim Pesan</button>
+    </form>
+
+    <div class="social-media">
+      <p>Terhubung dengan saya:</p>
+      <a href="https://www.instagram.com/_zlthmr/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/zee-aletha-3b490a381/#:~:text=www.linkedin.com/in/zee%2Daletha%2D3b490a381" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </div>
+</body>
+</html>
